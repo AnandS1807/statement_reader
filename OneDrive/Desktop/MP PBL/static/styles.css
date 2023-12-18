@@ -1,0 +1,105 @@
+/* Global Styling */
+body {
+    background-color: #f0f0f0; /* Set background color for the entire page */
+    font-family: Arial, sans-serif; /* Set font family to Arial */
+    margin: 40px; /* Add margin to extend the background color from the edges */
+}
+
+/* Container Styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin: 20px; /* Add margin between container and page edges */
+    padding: 20px; /* Add padding for the background color */
+    background: linear-gradient(to right, rgb(63, 174, 202), rgb(92, 184, 92)) center;
+
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    box-shadow: 0 0 10px rgb(14, 70, 107); /* Add box shadow for a subtle effect */
+}
+
+h2 {
+    margin-bottom: 10px; /* Adjust the margin-bottom value for space below the heading */
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px; /* Adjust the margin-bottom value for space below the form */
+}
+
+/* Label Styling */
+label {
+    display: block; /* Make labels block-level for better spacing */
+    margin-bottom: 5px; /* Adjust the margin-bottom value for space between labels */
+}
+
+/* Input and Select Styling */
+input,
+select {
+    margin-bottom: 10px; /* Adjust the margin-bottom value for space between input elements */
+    width: 150px; /* Adjust the width of input elements */
+    font-size: 14px; /* Set font size for input elements */
+}
+
+/* Button Styling */
+button {
+    margin-bottom: 10px; /* Adjust the margin-bottom value for space between buttons */
+    padding: 8px; /* Adjust the padding for smaller size */
+    background-color: #134778; /* Set background color for buttons */
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: auto; /* Let the width be automatically determined by content */
+    font-size: 14px; /* Set font size for buttons */
+}
+
+button:hover {
+    background-color: #45a049; /* Change background color on hover */
+}
+
+/* Output Styling */
+#output {
+    margin-top: 15px; /* Adjust the margin-top value for space above the output */
+    font-size: 18px; /* Adjust the font size for the output grid */
+    text-align: left;
+}
+
+/* Binary Box Styling */
+.binary-box {
+    width: 25px; /* Adjust the width for larger boxes in the output grid */
+    height: 25px; /* Adjust the height for larger boxes in the output grid */
+    margin-right: 5px; /* Add margin between boxes */
+    display: inline-flex; /* Display boxes inline */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    border: 1px solid #ddd; /* Add border for better visibility */
+    border-radius: 4px; /* Add border-radius for rounded corners */
+    font-size: 14px; /* Set font size for binary boxes */
+    font-weight: bold;
+}
+
+/* Binary Box Colors */
+.binary-box-0 {
+    background-color: #e0e0e0; /* Set background color for 0 */
+    color: #333; /* Set text color for 0 */
+}
+
+.binary-box-1 {
+    background: linear-gradient(to right, rgb(63, 100, 202), rgb(5, 32, 95)) center;
+    color: white; /* Set text color for 1 */
+}
+
+
+
+
+/* Additional space styles */
+.space {
+    width: 15px; /* Adjust the width for more space */
+    display: inline-block; /* Display spaces inline-block */
+}
+
+

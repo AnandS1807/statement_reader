@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IEEE 754 Converter</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>IEEE 754 Converter!</h2>
+        <form onsubmit="return convert()">
+            <label for="decimalInput">Enter Decimal Number:</label>
+            <input type="text" id="decimalInput" name="decimalInput" required>
+            <label for="precision">Choose Precision:</label>
+            <select id="precision" name="precision" required>
+                <option value="single">Single Precision</option>
+                <option value="double">Double Precision</option>
+            </select>
+            <button type="submit">Convert</button>
+        </form>
+        <div id="output"></div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
