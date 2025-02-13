@@ -1,0 +1,14 @@
+# requirements.txt
+pandas
+numpy
+pdfplumber
+PyPDF2
+pytesseract
+opencv-python
+flask
+transformers
+torch
+spacy
+camelot-py
+tabula-py
+scikit-learn
