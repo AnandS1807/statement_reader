@@ -10,5 +10,8 @@ Start Menu/
 Templates/
 *.log
 *.ini
+.tmp
 .DS_Store
 Thumbs.db
+OneDrive/
+*.html
